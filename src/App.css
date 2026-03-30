@@ -655,6 +655,36 @@ body {
   z-index: 5;
 }
 
+.authority-mode {
+  position: sticky;
+  top: 68px;
+  z-index: 4;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 1rem;
+  margin-top: 0.25rem;
+}
+
+.authority-mode span {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-right: 0.5rem;
+  align-self: center;
+}
+
+.authority-mode button {
+  border: none;
+  border-radius: 999px;
+  padding: 0.4rem 0.9rem;
+  background: var(--accent-soft);
+  color: #fff;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  box-shadow: var(--glow);
+}
+
 .offline-message p {
   margin: 0;
   font-size: 0.9rem;

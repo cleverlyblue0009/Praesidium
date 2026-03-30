@@ -187,6 +187,15 @@ function App() {
   return (
     <div className="app-shell">
       <OfflineBanner pendingList={pendingComplaints} />
+      <div className="authority-mode">
+        <span>Authority Access</span>
+        <button
+          type="button"
+          onClick={() => (window.location.href = '/authority.html')}
+        >
+          Switch to Authority
+        </button>
+      </div>
 
       <div className="screen-wrapper">
         {activeScreen === 'home' && (

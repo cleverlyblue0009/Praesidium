@@ -79,6 +79,11 @@ const AuthorityEntry = () => {
             Continue
           </button>
         </form>
+        <p className="return-user">
+          <button type="button" onClick={() => (window.location.href = '/')}>
+            Return to VIGIL User
+          </button>
+        </p>
       </section>
     </main>
   );
